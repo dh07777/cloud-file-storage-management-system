@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+backend/.env
+backend/instance/*.db*
+backend/instance/outbox.log
+backend/storage_data/
+# Node
+node_modules/
+frontend/dist/
+frontend/.env
+# OS / editor
+.DS_Store
+Thumbs.db
